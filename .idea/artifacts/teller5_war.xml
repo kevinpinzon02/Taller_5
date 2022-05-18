@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="teller5:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>teller5</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="teller5-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="teller5:war exploded" />
+    </root>
+  </artifact>
+</component>
